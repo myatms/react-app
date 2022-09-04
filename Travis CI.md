@@ -24,4 +24,9 @@ This config is stand to use AWS Elastic BeanStalk Service. Then the deploy proce
 
 ## bucket_path: 'react-app'
 
-This config is means that the path of s3 bucket. The deploy process is copy the hole directory of source code into the s3 bucket. So you should use the name of bucket path is "the directory name of source code.
+This config is means that the path of s3 bucket. The deploy process is copy the hole directory of source code into the s3 bucket. So you should use the name of bucket path is "the directory name of source code".
+
+
+
+
+***********If you ask any question, you caan contact through "ethan.mms01@gmail.com"*************
