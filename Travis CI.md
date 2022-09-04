@@ -29,4 +29,4 @@ This config is means that the path of s3 bucket. The deploy process is copy the 
 
 
 
-***********If you ask any question, you caan contact through "ethan.mms01@gmail.com"*************
+***********If you ask any question, you caan contact through "ethan.mms01@gmail.com"***********
