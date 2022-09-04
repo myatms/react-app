@@ -12,12 +12,14 @@ script:
 
 deploy:
   provider: elasticbeanstalk
+  edge: true
   region: 'ap-southeast-1'
-  app: 'react-app'
+  app: ' react-app'
   env: 'Reactapp-env'
   bucket_name: 'elasticbeanstalk-ap-southeast-1-353616106586'
-  bucket_path: 'react-app'
+  bucket_path: 'Reactapp-env'
   on:
-    branch: main
+    branch: master
   access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
+  secure_key_id: "$AWS_SECRET_KEY"
+  skip_cleanup: true
