@@ -20,6 +20,6 @@ deploy:
   bucket_path: 'Reactapp-env'
   on:
     branch: master
-  access_key_id: $AWS_ACCESS_KEY
+  access_key_id: "$AWS_ACCESS_KEY"
   secure_key_id: "$AWS_SECRET_KEY"
   skip_cleanup: true
